@@ -1,0 +1,14 @@
+ethereum_rpc = "https://rpc.hoodi.ethpandaops.io"
+drosera_rpc = "https://relay.hoodi.drosera.io"
+
+[traps.govern_guard]
+path = "out/GovernGuardTrap.sol/GovernGuardTrap.json"
+response_contract = "0x9620F0DAB19dFcc2E663c231970b5653940B24A4"
+response_function = "logAlert(address,uint256,uint256,uint256)"
+cooldown_period_blocks = 50
+min_number_of_operators = 1
+max_number_of_operators = 3
+block_sample_size = 10
+private_trap = true
+whitelist = ["0xF6AaF0A4555F3563Bd5c16c9680076839Bf33a0f"]
+address = "0x63F82DD2c37cAcc47ea8b503BB2832c3bFF1310F"
