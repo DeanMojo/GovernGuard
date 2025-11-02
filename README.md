@@ -55,6 +55,45 @@ Notify Drosera agents (via GovernGuardResponse.sol) to audit affected proposals.
 | ⚡ **Respond** | Once triggered, Drosera can route this event to a **Response Contract** or alert node operators for investigation. |
 
 ---
+## 📂 Here’s the recommended directory structure for your GovernGuard
+
+GovernGuard/
+├── README.md
+├── drosera.toml
+├── foundry.toml
+├── package.json
+├── .gitignore
+│
+├── lib/
+│   ├── forge-std/                  # Foundry standard library
+│   └── drosera-contracts/          # Installed Drosera contracts (via npm/yarn)
+│
+├── src/
+│   ├── GovernGuardTrap.sol         # Main trap contract
+│   ├── GovernGuardResponse.sol     # Response contract for triggering actions
+│   └── MockGovernanceToken.sol     # Optional mock token for testing
+│
+├── test/
+│   ├── GovernGuard.t.sol           # Foundry test for the trap
+│   ├── GovernGuardResponse.t.sol   # Optional test for response contract
+│   └── MockGovernanceToken.t.sol   # Optional test for mocks
+│
+├── scripts/
+│   ├── deploy.s.sol                # Script for deployment using Foundry
+│   └── verify.s.sol                # Optional verification script
+│
+├── out/
+│   ├── GovernGuardTrap.sol/        # Compiled artifacts (auto-generated)
+│   ├── GovernGuardResponse.sol/
+│   └── MockGovernanceToken.sol/
+│
+├── node_modules/                   # Installed npm dependencies
+│
+└── docker/
+    └── docker-compose.yml          # Operator node setup (if running locally)
+
+
+---
 
 ## 🧪 Testing on Hoodi Testnet
 
