@@ -56,7 +56,7 @@ Notify Drosera agents (via GovernGuardResponse.sol) to audit affected proposals.
 
 ---
 ## 📂 Here’s the recommended directory structure for your GovernGuard
-
+```bash
 GovernGuard/
 ├── README.md
 ├── drosera.toml
@@ -91,7 +91,7 @@ GovernGuard/
 │
 └── docker/
     └── docker-compose.yml          # Operator node setup (if running locally)
-
+```
 
 ---
 
