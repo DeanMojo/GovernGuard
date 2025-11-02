@@ -146,6 +146,7 @@ e.g., pausing governance, alerting Discord, or blacklisting a wallet.
 ---
 
 ### 🌐 Connect with Drosera Network
+- 👉 [Trap Link](https://app.drosera.io/trap?trapId=0x63f82dd2c37cacc47ea8b503bb2832c3bff1310f&chainId=560048)
 - 🔗 [Website](https://drosera.io)
 - 🧭 [Docs](https://docs.drosera.io)
 - 💬 [Discord](https://discord.gg/drosera)
