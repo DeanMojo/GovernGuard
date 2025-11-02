@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="GOVERNGUARDlogo(AllBlack).png" alt="GovernGuard Logo" width="400"/>
+  <img src="GOVERNGUARD logo (All Black).png" alt="GovernGuard Logo" width="400"/>
 </p>
 
 # 🛡️ GovernGuard Trap
