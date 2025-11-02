@@ -70,12 +70,12 @@ GovernGuard/
 │
 ├── src/
 │   ├── GovernGuardTrap.sol         # Main trap contract
-│   ├── GovernGuardResponse.sol     # Response contract for triggering actions
+│   ├── GovernanceAlertResponse.sol     # Response contract for triggering actions
 │   └── MockGovernanceToken.sol     # Optional mock token for testing
 │
 ├── test/
 │   ├── GovernGuard.t.sol           # Foundry test for the trap
-│   ├── GovernGuardResponse.t.sol   # Optional test for response contract
+│   ├── GovernanceAlertResponse.t.sol   # Optional test for response contract
 │   └── MockGovernanceToken.t.sol   # Optional test for mocks
 │
 ├── scripts/
