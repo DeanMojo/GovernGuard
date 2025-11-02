@@ -133,6 +133,12 @@ e.g., pausing governance, alerting Discord, or blacklisting a wallet.
 
 ---
 
+## 🌐 View Deployed Trap
+
+👉 Check out the Trap here - https://app.drosera.io/trap?trapId=0x63f82dd2c37cacc47ea8b503bb2832c3bff1310f&chainId=560048
+
+---
+
 ## 📜 License
 
 [MIT](./LICENSE)
