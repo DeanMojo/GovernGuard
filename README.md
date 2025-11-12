@@ -174,7 +174,7 @@ e.g., pausing governance, alerting Discord, or blacklisting a wallet.
 
 ## 🌐 View Deployed Trap
 
-👉 Check out the Trap here - https://app.drosera.io/trap?trapId=0x63f82dd2c37cacc47ea8b503bb2832c3bff1310f&chainId=560048
+👉 Check out the Trap here - https://app.drosera.io/trap?trapId=0xcf488d6135df10d866d93e155414cce3e14f6745&chainId=560048
 
 ---
 
